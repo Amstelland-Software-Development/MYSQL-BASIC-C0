@@ -46,7 +46,7 @@ DELETE FROM player WHERE wage > 15000;
 
 ## Leerdoelen
 
-1. [ ] Ik kan een DELETE-statement schrijven met een WHERE-clausule
+1. Ik kan een DELETE-statement schrijven met een WHERE-clausule
 
 ## Opdracht
 

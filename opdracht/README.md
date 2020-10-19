@@ -36,6 +36,7 @@ Delete | taak02 | Primary Keys
 
 ## Leerdoelen
 
+//TODO: add leerdoelen
 
 ## Opdracht
 

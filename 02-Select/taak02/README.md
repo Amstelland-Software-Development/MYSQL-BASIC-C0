@@ -84,8 +84,8 @@ En net als bij andere programmeertalen kun een getal schrijven zonder aanhalings
 
 ## Leerdoelen
 
-1. [ ] Ik kan specifieke rijen ophalen uit een database door een WHERE-clausule toe te voegen aan een SQL-select-statement.
-2. [ ] Ik kan een conditie schrijven die gebruikt wordt binnen een WHERE-clausule.
+1. Ik kan specifieke rijen ophalen uit een database door een WHERE-clausule toe te voegen aan een SQL-select-statement.
+2. Ik kan een conditie schrijven die gebruikt wordt binnen een WHERE-clausule.
 
 ## Opdracht
 

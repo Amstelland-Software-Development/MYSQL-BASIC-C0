@@ -44,8 +44,8 @@ De `FIFA2018`-database die we de hele tijd gebruiken heeft een `id`-kolom maar a
 
 ## Leerdoelen
 
-1. [ ] Ik kan een DELETE-statement schrijven met een WHERE-clausule
-2. [ ] Ik weet waarom een primary-key-kolom alleen unieke waardes bevat
+1. Ik kan een DELETE-statement schrijven met een WHERE-clausule
+2. Ik weet waarom een primary-key-kolom alleen unieke waardes bevat
 
 ## Opdracht
 

@@ -48,8 +48,8 @@ SELECT title, rating FROM movies;
 
 ## Leerdoelen
 
-1. [ ] Ik kan een SQL-statement schrijven die alle kolommen ophaalt uit een tabel
-2. [ ] Ik kan een SQL-statement schrijven die alleen bepaalde kolommen ophaalt uit een tabel.
+1. Ik kan een SQL-statement schrijven die alle kolommen ophaalt uit een tabel
+2. Ik kan een SQL-statement schrijven die alleen bepaalde kolommen ophaalt uit een tabel.
 
 ## Opdracht
 
@@ -76,13 +76,12 @@ SELECT title, rating FROM movies;
 
 Onderstaand plaatje geeft gedeeltelijk aan wat je zou moeten terugkrijgen als je de voorbeeldopdracht i hebt uitgevoerd.
 
-![Output opdracht 1 - SELECT* FROM jaar2016](https://github.com/ROC-van-Amsterdam-College-Amstelland/MYSQL-BASIC/blob/master/2-Select/taak01/img/output.jpg)
+![Output opdracht 1 - SELECT* FROM jaar2016](img/output.jpg)
 
 Onderstaand plaatje laat zien hoe het eruit ziet als je maar een bepaald aantal kolommen opvraagt zoals in opdracht iii.
 
-![Output opdracht 1 - SELECT* FROM jaar2016](https://github.com/ROC-van-Amsterdam-College-Amstelland/MYSQL-BASIC/blob/master/2-Select/taak01/img/output2.jpg)
+![Output opdracht 1 - SELECT* FROM jaar2016](img/output2.jpg)
 
 ## Bronnen
-
 
 [W3 Schools - SQL SELECT Statement](https://www.w3schools.com/sql/sql_select.asp) 

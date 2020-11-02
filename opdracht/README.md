@@ -50,12 +50,12 @@ Schrijf voor de onderstaande vragen een SQL-query die de gevraagde informatie te
 2. Hoeveel spellen uit de database zijn uitgebracht in 1999?
 3. Hoeveel spellen zijn er in het genre Sports verkocht in Noord-Amerika?
 4. Toon de naam en het platform van alle spellen die zijn uitgebracht door Nintendo tussen 1990 en 2005.
-5. Welk spel heeft het meest geld opgebracht wereldwijd? //TODO: fix bewoording
+5. Welk spel heeft het hoogste aantal verkopen wereldwijd? 
 6. Hoeveel spellen zijn er gemiddeld verkocht in het genre Puzzle in Europa?
-7. Toon de naam, het genre en de uitgever van het spel dat het minste aantal verkopen heeft in Japan. //TODO: vraag is niet op te lossen
+7. Toon de naam, het genre en de uitgever van het spel dat 532 verkochte spellen heeft in Japan. 
 8.  Hoeveel spellen zijn er totaal verkocht van Nintento wereldwijd?
 9.  Toon de naam en het jaar van uitgave van alle spellen die zijn uitgebracht van het genre Racing door Nintendo of Activision.
-10. Toon de gemiddelde verkoop aantallen in Noord Amerika, Europa en Japan van de spellen gemaakt door Sony Computer Entertainment voor de PS4. //TODO: replace vraag
+10. Toon de gemiddelde verkoop aantallen in Noord Amerika, Europa en Japan. Gebruik een duidelijke ALIAS.
 11. Verwijder het spel Halo 2 voor de XB.
 12. Verwijder alle spellen uit 2012 of die gemaakt zijn door Ubisoft.
 13. Verwijder alle spellen van het genre Adventure gemaakt door Nintendo

@@ -14,12 +14,9 @@ Als het goed is heb je Xampp al geïnstalleerd en weet je hoe je de database-ser
 
 ## Leerdoelen
 
-1. Ik kan via het Xampp Controlepaneel de MySQL-database server opstarten
-2. Ik kan via het Xampp Controlepaneel de Apache-webserver opstarten
-3. Ik kan PhpMyAdmin openen in een browser
-4. Ik kan een een databasebestand importeren in een nieuwe database in PhpMyAdmin.
-5. Ik kan een SQL-query uitvoeren in PhpMyAdmin
-6. Ik kan een uitgevoerde SQL-query bookmarken in PhpMyAdmin
+1. Ik kan een een databasebestand importeren in een nieuwe database in PhpMyAdmin.
+2. Ik kan een SQL-query uitvoeren in PhpMyAdmin
+3. Ik kan een uitgevoerde SQL-query bookmarken in PhpMyAdmin
 
 ## Opdracht
 
@@ -69,7 +66,8 @@ SELECT kolom1, kolom2 FROM table
 ```
 
 ## Eindresultaat
-//TODO: eindresultaat screenshot van movies tabel
+
+![](img/eindresultaat-movies-table.jpg)
 
 
 ## Bronnen

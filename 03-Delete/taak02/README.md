@@ -51,11 +51,11 @@ De `FIFA2018`-database die we de hele tijd gebruiken heeft een `id`-kolom maar a
 
 1. We maken weer gebruik van de `Fifa2018`-database. Als je deze nog niet hebt staan in PhpMyAdmin maak dan een nieuwe database aan (met een duidelijke naam, bv.: `mod-mysql-basic-fifa2018`) en importeer het `.sql`-bestand in de `db-export`-map van deze taak.
 2. In de PhpMyAdmin interface selecteer de `players`-tabel en ga naar het tabblad `Structure`. Zet een vinkje naast de `id`-kolom. Klik vervolgens op de knop `Primary` in de optiebalk. Wat gebeurt er?
-   ![Structure options](https://github.com/ROC-van-Amsterdam-College-Amstelland/MYSQL-BASIC/blob/master/3-Delete/taak02/img/phpmyadmin-structure-options.jpg)
+   ![Structure options](img/phpmyadmin-structure-options.jpg)
 3. Je krijgt een foutmelding dat er rijen zijn gevonden met dezelfde id. Gelukkig geeft PhpMyAdmin aan welke id dubbel is. Schrijf een SQL-query die alle spelers ophaalt met die id. (**copy/paste de SQL-query ook in `antwoorden.sql` en sla een bookmark op**)
 4. Ah, Rodrigo staat er dubbel in! Wat je nu eigelijk zou willen doen is één van de dubbele rijen verwijderen. Maar hoe? Als je `DELETE FROM players WHERE id = 198329` doet worden ze allebei verwijderd. En elke ander kolom die je in je conditie kan gebruiken levert hetzelfde resultaat op(of zelf nog meer andere spelers). Dit is een reden dat je altijd een unieke id wilt hebben voor elke rij in je database, want stel dat Rodrigo er twee keer in zou staan met dezelfde informatie in alle kolommen *behalve* de `id`-kolom. Dan zouden we hem makkelijk kunnen verwijderen. Voor nu willen we voor elkaar krijgen dat de `id`-kolom alleen nog maar unieke waardes bevat en geven me minder om volledigheid van de gegevens in de database. Verwijder dus maar beide Rodrigo-rijen door een DELETE-statement uit te voeren op basis van zijn id.
 5. Als het goed is zie nadat je de DELETE-statement hebt uitgevoerd de volgende boodschap terug in PhpMyAdmin.
-   ![Delete dupes](https://github.com/ROC-van-Amsterdam-College-Amstelland/MYSQL-BASIC/blob/master/3-Delete/taak02/img/phpmyadmin-delete-dupes.jpg)
+   ![Delete dupes](img/phpmyadmin-delete-dupes.jpg)
   Er zijn 2 (!) rows veranderd door de DELETE-statement. Dit wil je dus niet zien als je een rij verwijdert op basis van een "unieke" id. Het mag er altijd maar één zijn.
 6. Probeer nu weer een primary key aan maken voor de `id`-kolom in PhpMyAdmin zoals je ook bij opdracht 2 hebt gedaan.
 7. Niet gelukt? Verwijder ook deze rijen waarvan de id hetzelfde is.

@@ -1,5 +1,14 @@
 # MYSQL-BASIC-TAAK-01
 
+- [MYSQL-BASIC-TAAK-01](#mysql-basic-taak-01)
+  - [Uitleg](#uitleg)
+    - [XAMPP](#xampp)
+    - [phpMyAdmin](#phpmyadmin)
+  - [Leerdoelen](#leerdoelen)
+  - [Opdracht](#opdracht)
+  - [Eindresultaat](#eindresultaat)
+  - [Bronnen](#bronnen)
+
 ## Uitleg
 
 ### XAMPP

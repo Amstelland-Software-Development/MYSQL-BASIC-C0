@@ -53,6 +53,9 @@ SELECT title, rating FROM movies;
 
 ## Opdracht
 
+> ### Inleveren in canvas
+> :warning: Voer onderstaande opdrachten uit en lever in Canvas een link in bij deze opdracht naar het `antwoorden.sql` bestand op github.
+
 1. [ ] We gebruiken een nieuwe database-export genaamd `mod-mysql-basic-worldhappiness.sql`. Deze vind je in de `db-export` map.
 2. [ ] Om te beginnen: open PhpMyAdmin in je browser, maak een nieuwe database aan en noem deze `mod-mysql-basic-worldhappiness`. Importeer `mod-mysql-basic-worldhappiness.sql`. Vergeet niet de database eerst te selecteren voor je de import doet.
 3. [ ] Deze database bevat twee tabellen genaamd `jaar2015` en `jaar2016` met allebei de volgende kolommen: `country`, `region`, `rank` en `score`. Beide tabellen zien er ongeveer zo uit:

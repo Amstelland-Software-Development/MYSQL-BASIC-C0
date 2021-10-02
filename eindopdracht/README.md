@@ -36,9 +36,12 @@ Delete | taak02 | Primary Keys
 
 ## Leerdoelen
 
-//TODO: add leerdoelen
+Zie leerdoelen in de module [README.md](../README.md)
 
 ## Opdracht
+
+> ### Inleveren in canvas
+> :warning: Voer onderstaande opdrachten uit en lever in Canvas een link in bij deze opdracht naar het `antwoorden.sql` bestand op github.
 
 1. Maak een nieuwe database aan genaamd `mod-mysql-basic-opdracht` en importeer de database-exportfile `videogamesales.sql` in de `db-export` map.
 2. Open het SQL-tabblad in PhpMyAdmin en schrijf SQL-queries om de gevraagde gegevens te tonen:  
@@ -67,7 +70,4 @@ Schrijf voor de onderstaande vragen een SQL-query die de gevraagde informatie te
 
 
 ## Bronnen
-
-
-[W3 Schools - PHP Functions](https://www.w3schools.com/php/php_functions.asp)  
 

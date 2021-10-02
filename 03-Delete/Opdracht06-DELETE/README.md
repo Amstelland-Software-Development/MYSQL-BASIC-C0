@@ -50,6 +50,9 @@ DELETE FROM player WHERE wage > 15000;
 
 ## Opdracht
 
+> ### Inleveren in canvas
+> :warning: Voer onderstaande opdrachten uit en lever in Canvas een link in bij deze opdracht naar het `antwoorden.sql` bestand op github.
+
 1. We maken weer gebruik van de `Fifa2018`-database. Als je deze nog niet hebt staan in PhpMyAdmin, maak dan een nieuwe database aan (met een duidelijke naam, bv: `mod-mysql-basic-fifa2018`) en importeer het `.sql`-bestand in de `db-export`-map van deze taak.
 2. Open het SQL-tabblad in PhpMyAdmin en schrijf SQL-queries om de gevraagde gegevens te tonen:  
    **(vergeet niet na elke beantwoorde vraag de SQL-statement die je geschreven hebt te copy/pasten in `antwoorden.sql` en een bookmark met een logisch genaamd label aan te maken)**

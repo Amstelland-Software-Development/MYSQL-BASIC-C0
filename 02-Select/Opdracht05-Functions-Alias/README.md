@@ -3,9 +3,9 @@
 ## SQL Functies & alias
 
 - [MYSQL-BASIC-TAAK-04](#mysql-basic-taak-04)
-  - [SQL-Functies & alias](#sql-functies--alias)
+  - [SQL Functies & alias](#sql-functies--alias)
   - [Uitleg](#uitleg)
-    - [Functie-overzicht](#functies-overzicht)
+    - [Functie-overzicht](#functie-overzicht)
     - [Gebruik van functies met AVG() en SUM() als voorbeeld](#gebruik-van-functies-met-avg-en-sum-als-voorbeeld)
       - [Vertaling voorbeeld](#vertaling-voorbeeld)
       - [Syntax](#syntax)
@@ -73,7 +73,7 @@ Dit is al een stuk duidelijker wanneer je de gegevens gaat gebruiken binnen een 
 Nog even voor de duidelijkheid: wat vraag je precies van de databaseserver in gewone taal?
 
 Taal | keyword | functie met kolom | keyword met eigen_naam |  keyword met tabel |Where clausule met conditie|
-----|---------|----------|---------|---------- | ---- | --- | --- | --- |
+----|---------|----------|---------|---------- | ---- | 
 SQL | `SELECT` | ` AVG(`wage`)` | `AS` avg_wage | `FROM` players |  `WHERE` club = "Ajax" | rank | = | 1 |
 Vrij vertaald: | Geef mij | het gemiddelde van de kolom wage | als avg_wage | uit de players tabel | waar de waarde van de kolom club gelijk is aan "Ajax"
 
@@ -157,6 +157,9 @@ ajax_speler_minste_waarde |
 
 
 ## Opdracht
+
+> ### Inleveren in canvas
+> :warning: Voer onderstaande opdrachten uit en lever in Canvas een link in bij deze opdracht naar het `antwoorden.sql` bestand op github.
 
 1. We maken weer gebruik van de `Fifa2018`- database. Als je deze nog niet hebt staan in PhpMyAdmin, maak dan een nieuwe database aan (met een duidelijke naam, bv. `mod-mysql-basic-fifa2018`) en importeer het `.sql`-bestand in de `db-export`-map van deze taak.
 2. Open het SQL-tabblad in PhpMyAdmin en schrijf SQL-queries om de gevraagde gegevens te tonen:  

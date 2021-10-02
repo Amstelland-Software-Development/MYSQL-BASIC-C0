@@ -39,9 +39,11 @@ Net als in andere programeertalen waarbij je een conditie gebruikt bij een if/el
    New Zealand | Australia and New Zeeland | 9 | 7286|
 
 De SQL-statement `SELECT * FROM jaar2015 WHERE country="Iceland"` geeft het volgende terug:
+
    country | region | rank | score |
    --------| -------| -----| ------|
-   Iceland | Western Europe | 2 | 7561 |
+   Iceland | Western Europe | 2 | 7561|
+
 
 En de SQL-statement `SELECT * FROM jaar2015 WHERE rank=1` geeft dus:
    country | region | rank | score |
@@ -53,14 +55,14 @@ Klinkt logisch toch? Mischien zie je al hoe je dus condities schrijft, maar nog 
 #### Vertaling voorbeeld
 
 Taal | SELECT statement | Keyword | kolom naam | operator | waarde |
-----|---------|----------|---------|---------- | ---- | --- | --- | --- |
-SQL | `SELECT * FROM jaar2015` | WHERE | country | = | "Iceland" 
-Vrij vertaald: | Geef mij alle kolommen van de tabel jaar2015 | waar | de inhoud van de kolom country | gelijk is aan | de string "Iceland"
+----|-------------------|---------|---------- | ---- | --- | 
+SQL | `SELECT * FROM jaar2015` | WHERE | country | = | "Iceland" |
+Vrij vertaald: | Geef mij alle kolommen van de tabel jaar2015 | waar | de inhoud van de kolom country | gelijk is aan | de string "Iceland" |
 
 Een tweede voorbeeld:
 
 Taal | SELECT statement | Keyword | kolom naam | operator | waarde |
-----|---------|----------|---------|---------- | ---- | --- | --- | --- |
+----|---------|----------|---------|---------- | ---- | 
 SQL | `SELECT * FROM jaar2015` | `WHERE` | rank | = | 1 |
 Vrij vertaald: | Geef mij alle kolommen van de tabel jaar2015 | waar | de inhoud van de kolom rank | gelijk is aan | het getal 1
 
@@ -88,6 +90,9 @@ En net als bij andere programmeertalen kun een getal schrijven zonder aanhalings
 2. Ik kan een conditie schrijven die gebruikt wordt binnen een WHERE-clausule.
 
 ## Opdracht
+
+> ### Inleveren in canvas
+> :warning: Voer onderstaande opdrachten uit en lever in Canvas een link in bij deze opdracht naar het `antwoorden.sql` bestand op github.
 
 1. Open PhpMyAdmin in je browser en selecteer de `worldhappiness` database die je bij de vorige taak hebt aangemaakt. (Als je deze database nog niet hebt aangemaakt, doe dit dan en importeer het sql-exportbestand uit de `dp-export`-map daarin).
 2. Open het SQL-tabblad in PhpMyAdmin en schrijf SQL-query's om de gevraagde gegevens te tonen:  

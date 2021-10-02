@@ -49,6 +49,9 @@ De `FIFA2018`-database die we de hele tijd gebruiken heeft een `id`-kolom maar a
 
 ## Opdracht
 
+> ### Inleveren in canvas
+> :warning: Voer onderstaande opdrachten uit en lever in Canvas een link in bij deze opdracht naar het `antwoorden.sql` bestand op github.
+
 1. We maken weer gebruik van de `Fifa2018`-database. Als je deze nog niet hebt staan in PhpMyAdmin maak dan een nieuwe database aan (met een duidelijke naam, bv.: `mod-mysql-basic-fifa2018`) en importeer het `.sql`-bestand in de `db-export`-map van deze taak.
 2. In de PhpMyAdmin interface selecteer de `players`-tabel en ga naar het tabblad `Structure`. Zet een vinkje naast de `id`-kolom. Klik vervolgens op de knop `Primary` in de optiebalk. Wat gebeurt er?
    ![Structure options](img/phpmyadmin-structure-options.jpg)

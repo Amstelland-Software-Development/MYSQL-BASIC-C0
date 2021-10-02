@@ -60,6 +60,9 @@ Het werkt hetzelfde met het `OR`-keyword, alleen krijg je, als je dit zou doen b
    
 ## Opdracht
 
+> ### Inleveren in canvas
+> :warning: Voer onderstaande opdrachten uit en lever in Canvas een link in bij deze opdracht naar het `antwoorden.sql` bestand op github.
+
 1. Open PhpMyAdmin in je browser en maak een nieuwe database aan (met een duidelijke naam, bv. `mod-mysql-basic-fifa2018`) en importeer het `.sql`-bestand in de `db-export`-map van deze taak.
 2. Open het SQL-tabblad in PhpMyAdmin en schrijf SQL-queries om de gevraagde gegevens te tonen:  
    **(vergeet niet na elke beantwoorde vraag de SQL-statement die je geschreven hebt te copy/pasten in `antwoorden.sql` en een bookmark met een logisch genaamd label aan te maken)**

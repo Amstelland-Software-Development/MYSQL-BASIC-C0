@@ -10,4 +10,3 @@ SELECT * FROM jaar2016
 
 -- Opdracht 6
 
--- Opdracht 7
